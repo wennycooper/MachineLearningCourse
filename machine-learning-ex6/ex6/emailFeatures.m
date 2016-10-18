@@ -48,11 +48,12 @@ x = zeros(n, 1);
 %
 %
 
+% [KKUEI] for loop to fill 1 to x(indices)
 
-
-
-
-
+for i=1:length(word_indices),
+    j = word_indices(i);
+    x(j) = 1;
+end
 
 
 % =========================================================================
